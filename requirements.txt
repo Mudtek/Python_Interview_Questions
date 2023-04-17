@@ -4,3 +4,6 @@ mypy
 black
 pylint
 pytest
+numpy
+memory_profiler
+matplotlib
