@@ -9,7 +9,7 @@ import numpy as np
 from memory_profiler import profile
 
 @profile
-def run_experiment(n):
+def run_experiment(n: int) -> int:
     data = np.random.random((n, n))
     m = np.sum(data)
     del data

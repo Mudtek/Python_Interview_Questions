@@ -3,7 +3,7 @@
 import gc
 
 class Link:
-   def __init__(self, next_link=None):
+   def __init__(self, next_link: 'Link'=None) -> None:
        self.next_link = next_link
 
 link_3 = Link()

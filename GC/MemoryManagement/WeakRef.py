@@ -4,7 +4,7 @@ without preventing it from being garbage collected"""
 import weakref
 
 class PlayerLevel:
-    def __init__(self, value):
+    def __init__(self, value: any) -> None:
         self.value = value
 
 my_object = PlayerLevel(42)
